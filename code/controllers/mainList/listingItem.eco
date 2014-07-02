@@ -1,0 +1,10 @@
+<div class="media listing-item">
+  <a class="pull-left" >
+    <img class="media-object img-responsive img-thumbnail" src="<%= @image %>" alt="...">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><%= @name %></h4>
+		<p class="lead"><%= @description %></p>
+		<a target="_blank" href="<%= @link %>">+ Info: <%= @link %></a>				    
+  </div>
+</div>

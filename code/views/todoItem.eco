@@ -1,0 +1,9 @@
+<li class="list-group-item">
+  <span class="badge"><input type="checkbox"/></span>
+ 	<%= @name %>
+ 	<ul class="list-group">
+  <% for subcat in @subcategories : %>
+		<li class="list-group-item"><%= subcat %></li>
+  <% end %>
+  </ul>
+</li>

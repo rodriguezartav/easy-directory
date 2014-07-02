@@ -1,0 +1,7 @@
+module.exports = {
+	
+	<% for  section in @: %>
+		 <%= section.name %>: <%- section.html %>,
+	<% end %>
+
+}

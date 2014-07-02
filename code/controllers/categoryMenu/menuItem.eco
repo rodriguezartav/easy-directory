@@ -1,0 +1,4 @@
+<li class="list-group-item">
+ 	<a href="#<%= @id %>"  data-id="<%= @id %>"><%= @name %></a>
+</li>
+
